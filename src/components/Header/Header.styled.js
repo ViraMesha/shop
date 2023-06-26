@@ -43,3 +43,18 @@ export const Banner = styled.div`
     font-size: 20px;
   }
 `;
+
+export const Nav = styled.nav`
+  float: right;
+`;
+
+export const NavItem = styled.li`
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+  transition: opacity ease 2ms;
+
+  &:hover {
+    opacity: 0.5;
+  }
+`;
